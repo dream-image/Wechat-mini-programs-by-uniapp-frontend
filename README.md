@@ -11,3 +11,5 @@
     <img src="./picture/挑战模式.jpg"  height="430px"></img>
     <img src="./picture/挑战模式提交.jpg"  height="430px"></img>
 </div>
+
+请在main.js的urlPre中填写后端的ip地址
