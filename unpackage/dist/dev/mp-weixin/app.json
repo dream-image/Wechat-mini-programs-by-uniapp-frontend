@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/homepage/index",
+    "pages/person/index",
+    "pages/startAnswer/normal/index",
+    "pages/startAnswer/challenge/index",
+    "pages/search/index",
+    "pages/correctionNotebook/index",
+    "pages/RankingList/normal/index",
+    "pages/RankingList/challenge/index",
+    "pages/starList/index"
+  ],
+  "usingComponents": {
+    "van-button": "/wxcomponents/vant/dist/button/index",
+    "van-grid": "/wxcomponents/vant/dist/grid/index",
+    "van-grid-item": "/wxcomponents/vant/dist/grid-item/index",
+    "van-index-bar": "/wxcomponents/vant/dist/index-bar/index",
+    "van-index-anchor": "/wxcomponents/vant/dist/index-anchor/index",
+    "van-icon": "/wxcomponents/vant/dist/icon/index",
+    "van-tabs": "/wxcomponents/vant/dist/tabs/index",
+    "van-tab": "/wxcomponents/vant/dist/tab/index",
+    "van-nav-bar": "/wxcomponents/vant/dist/nav-bar/index",
+    "van-cell-group": "/wxcomponents/vant/dist/cell-group/index",
+    "van-field": "/wxcomponents/vant/dist/field/index",
+    "van-switch": "/wxcomponents/vant/dist/switch/index",
+    "van-overlay": "/wxcomponents/vant/dist/overlay/index",
+    "van-notify": "/wxcomponents/vant/dist/notify/index",
+    "van-dialog": "/wxcomponents/vant/dist/dialog/index",
+    "van-sticky": "/wxcomponents/vant/dist/sticky/index"
+  },
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}

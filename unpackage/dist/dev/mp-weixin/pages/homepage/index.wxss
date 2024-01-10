@@ -1,0 +1,64 @@
+
+.img {
+  position: absolute;
+  width: 200rpx;
+  height: 360rpx;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translateY(100rpx);
+}
+.img:hover{
+	transform: scale(1.1); /* 改变元素大小或其它属性，这里以放大为例 */
+	    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* 悬浮时添加更明显的阴影 */
+}
+.btn:hover {
+	  background-position: right center; /* change the direction of the change here */
+}
+.btn {
+	  flex: 1 1 auto;
+	  margin: 30px;
+	  text-align: center;
+	  text-transform: uppercase;
+	  transition: 0.5s;
+	  background-size: 100% auto;
+	  color: #100;
+	 /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+}
+#middle {
+  transform: scale(1.3) translateY(100rpx);
+  z-index: 99;
+  opacity: 1;
+  transition-timing-function: ease-in;
+  transition: 1s transform;
+}
+#left {
+  transform: translateX(-200rpx) translateY(100rpx);
+  z-index: 9;
+  opacity: 1;
+  transition: 1s transform;
+}
+#right {
+  transform: translateX(200rpx) translateY(100rpx);
+  z-index: 8;
+  opacity: 1;
+  transition: 1s transform;
+}
+.low-z-index{
+	z-index:1
+}
+#first {
+  transform: translateX(-300rpx) translateY(100rpx);
+  z-index: 1;
+  opacity: 0;
+  transition: 1s opacity;
+}
+#last {
+  transform: translateX(300rpx) translateY(100rpx);
+  z-index: 1;
+  opacity: 0;
+  transition: 1s opacity;
+}
+#star{
+	background-image: url("data:image/svg+xml,%3C?xml version='1.0' standalone='no'?%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg t='1700379022836' class='icon' viewBox='0 0 1024 1024' version='1.1' xmlns='http://www.w3.org/2000/svg' p-id='2762' xmlns:xlink='http://www.w3.org/1999/xlink' width='200' height='200'%3E%3Cpath d='M0 0h1024v1024H0V0z' fill='%23202425' opacity='.01' p-id='2763'%3E%3C/path%3E%3Cpath d='M170.666667 68.266667a136.533333 136.533333 0 0 0-136.533334 136.533333v273.066667c0 50.517333 27.4432 94.651733 68.266667 118.272V273.066667a68.266667 68.266667 0 0 1 68.266667-68.266667h682.666666a68.266667 68.266667 0 0 1 68.266667 68.266667v323.072A136.465067 136.465067 0 0 0 989.866667 477.866667V273.066667a136.533333 136.533333 0 0 0-136.533334-136.533334h-303.172266A61.7472 61.7472 0 0 1 494.933333 102.4c-10.4448-20.923733-31.8464-34.133333-55.227733-34.133333H170.666667z' fill='%23FFAA44' p-id='2764'%3E%3C/path%3E%3Cpath d='M34.133333 341.333333a68.266667 68.266667 0 0 1 68.266667-68.266666h819.2a68.266667 68.266667 0 0 1 68.266667 68.266666v477.866667a136.533333 136.533333 0 0 1-136.533334 136.533333H170.666667a136.533333 136.533333 0 0 1-136.533334-136.533333V341.333333z' fill='%23FF7744' p-id='2765'%3E%3C/path%3E%3Cpath d='M496.605867 407.7568a17.066667 17.066667 0 0 1 30.788266 0L576.853333 511.317333a17.066667 17.066667 0 0 0 13.175467 9.557334l113.800533 15.018666a17.066667 17.066667 0 0 1 9.5232 29.2864l-83.2512 79.018667a17.066667 17.066667 0 0 0-5.051733 15.496533l20.923733 112.8448a17.066667 17.066667 0 0 1-24.917333 18.090667l-100.864-54.715733a17.066667 17.066667 0 0 0-16.315733 0l-100.864 54.715733a17.066667 17.066667 0 0 1-24.917334-18.090667l20.8896-112.8448a17.066667 17.066667 0 0 0-5.0176-15.496533l-83.217066-79.018667a17.066667 17.066667 0 0 1 9.489066-29.2864l113.800534-15.018666a17.066667 17.066667 0 0 0 13.175466-9.557334l49.425067-103.560533z' fill='%23FFFFFF' p-id='2766'%3E%3C/path%3E%3C/svg%3E");
+}

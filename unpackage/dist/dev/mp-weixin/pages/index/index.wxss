@@ -1,0 +1,41 @@
+
+.btn:hover {
+		background-position: right center;
+		/* change the direction of the change here */
+}
+.btn {
+		flex: 1 1 auto;
+		margin: 10px;
+		text-align: center;
+		text-transform: uppercase;
+		transition: 0.5s;
+		background-size: 200% auto;
+		color: white;
+
+		/* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+}
+.content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-image: url("https://z1.ax1x.com/2023/10/30/pimqjC6.png");
+		background-size: contain;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+}
+.logo {
+		height: 200rpx;
+		width: 200rpx;
+		margin-top: 200rpx;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50rpx;
+}
+.title {
+		font-size: 36rpx;
+		color: #8f8f94;
+}
+
+	/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */

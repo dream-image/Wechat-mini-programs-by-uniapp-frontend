@@ -1,0 +1,70 @@
+
+.items {
+		/* border: 1rpx solid black; */
+}
+.wrapper2 {
+		top: calc(var(--status-bar-height)*2);
+		position: absolute;
+}
+
+	/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+		font-family: "阿里妈妈东方大楷";
+		font-weight: 400;
+		src: url("//at.alicdn.com/wf/webfont/f2wEXLd1xeef/gGWF5PhM8QqM.woff2") format("woff2"),
+			url("//at.alicdn.com/wf/webfont/f2wEXLd1xeef/cAvkfwZ8kilv.woff") format("woff");
+		font-display: swap;
+}
+.wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+}
+.block {
+		width: 120px;
+		height: 120px;
+		background-color: #ffca28;
+}
+
+	/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+		font-family: "结束提示字体";
+		src: url("//at.alicdn.com/wf/webfont/f2wEXLd1xeef/k5AD4SRwhmSm.woff2") format("woff2"),
+			url("//at.alicdn.com/wf/webfont/f2wEXLd1xeef/2UbvD6rB2mNh.woff") format("woff");
+		font-display: swap;
+}
+
+	/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+		font-family: "第几题字体";
+		font-weight: 400;
+		src: url("//at.alicdn.com/wf/webfont/f2wEXLd1xeef/8cp6HiyZRX9y.woff2") format("woff2"),
+			url("//at.alicdn.com/wf/webfont/f2wEXLd1xeef/AMtt9uAQjqQC.woff") format("woff");
+		font-display: swap;
+}
+.answer {
+		/* 设置被选中的按钮的颜色 */
+		background-color: #ffab00;
+}
+#overview {
+		animation-name: show;
+		animation-duration: 0.3s;
+		animation-timing-function: ease-out;
+		animation-fill-mode: forwards;
+}
+@keyframes show {
+from {
+			right: -1000rpx;
+}
+to {
+			right: 0;
+}
+}
+.hasChosen {
+		background-color: #fdd835;
+}
+#resultPage {
+		opacity: 1;
+		transition: opacity 1s;
+}

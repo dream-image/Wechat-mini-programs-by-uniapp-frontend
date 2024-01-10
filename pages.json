@@ -1,0 +1,121 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "封神榜"
+			}
+		}
+	    ,{
+            "path" : "pages/homepage/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "封神榜",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/person/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "封神榜",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/startAnswer/normal/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "封神榜",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/startAnswer/challenge/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "封神榜",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "封神榜",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/correctionNotebook/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "封神榜",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/RankingList/normal/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "封神榜",
+                "enablePullDownRefresh": true
+            }
+            
+        },
+		{
+		    "path" : "pages/RankingList/challenge/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "封神榜",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/starList/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "封神榜",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+		  "van-button": "/wxcomponents/vant/dist/button/index",
+		  "van-grid": "/wxcomponents/vant/dist/grid/index",
+		  "van-grid-item": "/wxcomponents/vant/dist/grid-item/index",
+		  "van-index-bar": "/wxcomponents/vant/dist/index-bar/index",
+		  "van-index-anchor": "/wxcomponents/vant/dist/index-anchor/index",
+		  "van-icon":"/wxcomponents/vant/dist/icon/index",
+		  "van-tabs":"/wxcomponents/vant/dist/tabs/index",
+		  "van-tab":"/wxcomponents/vant/dist/tab/index",
+		  "van-nav-bar":"/wxcomponents/vant/dist/nav-bar/index",
+		  "van-cell-group":"/wxcomponents/vant/dist/cell-group/index",
+          "van-field":"/wxcomponents/vant/dist/field/index",
+          "van-switch":"/wxcomponents/vant/dist/switch/index",
+          "van-overlay":"/wxcomponents/vant/dist/overlay/index",
+          "van-notify":"/wxcomponents/vant/dist/notify/index",
+          "van-dialog":"/wxcomponents/vant/dist/dialog/index",
+          "van-sticky":"/wxcomponents/vant/dist/sticky/index"
+
+        
+		}
+
+	}
+}
