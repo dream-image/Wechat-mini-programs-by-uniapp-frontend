@@ -7,6 +7,7 @@
     <img src="./picture/收藏夹.jpg"  height="430px"></img>
     <img src="./picture/错题本.jpg"  height="430px"></img>
     <img src="./picture/排行榜.jpg"  height="430px"></img>
+    <img src="./picture/题库.jpg"  height="430px"></img>
     <img src="./picture/普通模式.jpg"  height="430px"></img>
     <img src="./picture/挑战模式.jpg"  height="430px"></img>
     <img src="./picture/挑战模式提交.jpg"  height="430px"></img>
